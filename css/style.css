@@ -1,12 +1,78 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: 'oswald' , sans-serif;
+}
+
+nav ul
+{
+    list-style: none;
+    text-align: center;
+    background-color: turquoise;
+    margin:0;
+    padding: 0;
+}
+
+nav li
+{    
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+nav a
+{
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover
+{
+    color: white;
+   /* background-color: brown;*/
+}
+
+.card
+{
+    width: 20%;
+    margin-top: 10%;   
+    margin-left: 10%;
+ 
+    /*display: inline-block;*/
+    float: left;
+
+}
+
+.card a{
+    text-align: center;   
+}
+
+img
+{
+    width: 90%;
+    height: 210px;   
+}
+
+h2
+{
+    text-align: center;
+}body
+{
+    font-family: 'Oswald', 'sans-serif'; 
+    margin: 0;
+}
+
 .card
 {
     /*display: inline-block;*/
     float: left;
-}
-
-div{
     width: 20%;
     padding-left: 10%;
+    margin-top: 50px;
+    margin-left: 0;
 }
 
 h2{
@@ -22,12 +88,39 @@ div img
 nav ul
 {
     list-style: none;
-    
+    text-align: center;
+    background-color: blueviolet;
+    padding-inline-start: 0%;
+    margin: 0;
 }
 
 nav li
 {
-    text-decoration: none;
-   
-    text-align:justify ;
+    font-size: 1.2em;
+   line-height: 40px;
+   height: 40px;
+    display: inline-block;
+    margin-left: 10%;
+    
 }
+
+nav a
+{
+   text-decoration: none;
+   display: block;
+color: beige;
+background-color: blueviolet;
+}
+
+a:hover
+{
+    color: blueviolet;    
+    background-color:beige;    
+ 
+}
+
+h1
+{
+    text-align: center;
+}
+
